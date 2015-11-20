@@ -17,3 +17,6 @@ def get_name(request):
 
     return render(request, 'name.html', {'form' : form})
 
+
+def login_view_test(request):
+    return render(request, 'mylogin.html')
